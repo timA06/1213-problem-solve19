@@ -1,4 +1,4 @@
-
+import java.awt.Color;
 /*
  * ITSC 1213 Module 12
  * The Circle class represents a circle with a radius and color.
@@ -20,7 +20,7 @@ public class Circle {
     // It sets the radius and color to their default value.
     public Circle() {
         radius = 1.0;
-        this.color = new Color("red");
+        this.color = new Color(255,119,65);
     }
 
     // 2nd constructor with given radius and color
