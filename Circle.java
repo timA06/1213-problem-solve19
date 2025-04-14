@@ -20,11 +20,11 @@ public class Circle {
     // It sets the radius and color to their default value.
     public Circle() {
         radius = 1.0;
-        this.color = "red";
+        this.color = new Color("red");
     }
 
     // 2nd constructor with given radius and color
-    public Circle(double r, String clr) {
+    public Circle(double r, Color clr) {
         radius = r;
         color = clr;
     }
