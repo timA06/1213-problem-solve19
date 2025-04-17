@@ -1,8 +1,4 @@
 import java.awt.Color;
-/*
- * ITSC 1213 Module 12
- * The Circle class represents a circle with a radius and color.
- */
 
 /**
  * This class describes a circle with a given radius and color.
@@ -10,6 +6,7 @@ import java.awt.Color;
  * @author nanajjar
  * @version Spring 25
  */
+
 public class Circle {  
     // private instance variable, not accessible from outside this class
     private double radius;
